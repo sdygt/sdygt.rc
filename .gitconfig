@@ -1,0 +1,9 @@
+[alias]
+        st = status
+        graph = log --graph --decorate --pretty=oneline --abbrev-commit
+        ck = checkout
+        br = branch
+        log1 = log --oneline
+        gp = log --graph --decorate --pretty=oneline --abbrev-commit
+        bump = merge --ff-only
+        f = fetch -v
