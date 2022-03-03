@@ -9,4 +9,11 @@ Return
 #IfWinActive ahk_exe Wireshark.exe
 F1::^+r
 F2::^+!t
+F3::^+o
+F4::
+    Send ^/
+    Send ^a
+    Send {Delete}
+    Send {Enter}
+Return
 #IfWinActive
